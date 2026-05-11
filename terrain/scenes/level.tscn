@@ -20,6 +20,8 @@
 [ext_resource type="Texture2D" uid="uid://btksviosdkuek" path="res://minigames/Booksheet (1) (1).png" id="18_31mqb"]
 [ext_resource type="PackedScene" uid="uid://bc8hqxva5ax7h" path="res://interface.tscn" id="18_be30i"]
 
+[sub_resource type="FontVariation" id="FontVariation_31mqb"]
+
 [sub_resource type="LabelSettings" id="LabelSettings_0noqu"]
 font_color = Color(0, 0, 0, 1)
 outline_color = Color(0, 0, 0, 1)
@@ -223,6 +225,7 @@ offset_top = -21.35173
 offset_right = 263.24457
 offset_bottom = 361.64825
 scale = Vector2(0.2, 0.2)
+theme_override_fonts/font = SubResource("FontVariation_31mqb")
 text = "A Jornada de Merge
 
 Para reconstruir a ponte e salvar a vila, ele deve buscar a sabedoria perdida com os moradores da vila.
