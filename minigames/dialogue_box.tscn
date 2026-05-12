@@ -3,10 +3,7 @@
 [ext_resource type="Script" uid="uid://eorslohtqdxr" path="res://dialogue_box.gd" id="1_nhbm5"]
 [ext_resource type="Texture2D" uid="uid://cujsp2ogygr6i" path="res://character/assets/vovo.png" id="2_ms2fb"]
 [ext_resource type="Texture2D" uid="uid://5is5xhgcp41n" path="res://character/assets/New Piskel (4).png" id="2_nhbm5"]
-<<<<<<< HEAD
 [ext_resource type="FontFile" uid="uid://hg38w34oujik" path="res://outros/upheaval/upheavtt.ttf" id="4_ms2fb"]
-=======
->>>>>>> 31a0d970255bb389244f426e5a4a116fa34f6cfe
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ms2fb"]
 texture = ExtResource("2_nhbm5")
