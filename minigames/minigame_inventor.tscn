@@ -61,6 +61,7 @@ offset_bottom = 193.0
 mouse_filter = 2
 
 [node name="Macro" type="NinePatchRect" parent="FASES" unique_id=191027066]
+visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 9.025001
@@ -166,32 +167,32 @@ texture = ExtResource("3_adfsy")
 z_index = 1
 layout_mode = 0
 offset_left = 88.0
-offset_top = 157.0
-offset_right = 152.0
-offset_bottom = 180.0
-scale = Vector2(0.6, 0.6)
+offset_top = 162.0
+offset_right = 165.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "fundaçao"
 label_settings = SubResource("LabelSettings_to205")
 
 [node name="LabelEstrutura" type="Label" parent="FASES/Macro" unique_id=1407585757]
 z_index = 1
 layout_mode = 0
-offset_left = 143.0
-offset_top = 161.0
-offset_right = 213.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_left = 144.0
+offset_top = 162.0
+offset_right = 229.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "estrutura"
 label_settings = SubResource("LabelSettings_to205")
 
 [node name="LabelFinalizacao" type="Label" parent="FASES/Macro" unique_id=833198733]
 z_index = 1
 layout_mode = 0
-offset_left = 198.00002
-offset_top = 157.00002
-offset_right = 276.0
-offset_bottom = 180.00002
-scale = Vector2(0.6, 0.6)
+offset_left = 194.0
+offset_top = 162.0
+offset_right = 298.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 pivot_offset = Vector2(0, 0.04)
 text = "finalizaçao"
 label_settings = SubResource("LabelSettings_to205")
@@ -263,10 +264,10 @@ id_correto = "3"
 
 [node name="Label2" type="Label" parent="FASES/Macro" unique_id=1169087274]
 layout_mode = 0
-offset_left = 291.0
-offset_top = 44.0
-offset_right = 331.0
-offset_bottom = 92.0
+offset_left = 285.0
+offset_top = 43.0
+offset_right = 332.0
+offset_bottom = 91.0
 text = "itens"
 label_settings = SubResource("LabelSettings_to205")
 
@@ -378,33 +379,33 @@ texture = ExtResource("15_pa2oq")
 [node name="LabelFundacao" type="Label" parent="FASES/Fundacao" unique_id=1586990061]
 z_index = 1
 layout_mode = 0
-offset_left = 147.0
-offset_top = 161.0
-offset_right = 210.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_left = 145.0
+offset_top = 162.0
+offset_right = 221.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "Assentar"
 label_settings = SubResource("LabelSettings_to205")
 
 [node name="LabelEstrutura" type="Label" parent="FASES/Fundacao" unique_id=1114974651]
 z_index = 1
 layout_mode = 0
-offset_left = 201.00002
-offset_top = 161.0
-offset_right = 267.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_left = 200.0
+offset_top = 162.0
+offset_right = 287.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "acimentar"
 label_settings = SubResource("LabelSettings_to205")
 
 [node name="LabelFinalizacao" type="Label" parent="FASES/Fundacao" unique_id=242327200]
 z_index = 1
 layout_mode = 0
-offset_left = 92.0
-offset_top = 161.0
-offset_right = 148.0
-offset_bottom = 194.0
-scale = Vector2(0.6, 0.6)
+offset_left = 91.0
+offset_top = 162.0
+offset_right = 159.0
+offset_bottom = 195.0
+scale = Vector2(0.5, 0.5)
 text = "Escavar
 "
 label_settings = SubResource("LabelSettings_to205")
@@ -473,9 +474,9 @@ id_correto = "3"
 
 [node name="Label2" type="Label" parent="FASES/Fundacao" unique_id=533014426]
 layout_mode = 0
-offset_left = 291.0
+offset_left = 285.0
 offset_top = 43.0
-offset_right = 331.0
+offset_right = 332.0
 offset_bottom = 91.0
 text = "itens"
 label_settings = SubResource("LabelSettings_to205")
@@ -589,32 +590,32 @@ texture = ExtResource("19_yj810")
 z_index = 1
 layout_mode = 0
 offset_left = 150.0
-offset_top = 161.0
-offset_right = 205.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_top = 162.0
+offset_right = 208.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "Serrar"
 label_settings = SubResource("LabelSettings_to205")
 
 [node name="LabelEstrutura" type="Label" parent="FASES/Estrutura" unique_id=2047067908]
 z_index = 1
 layout_mode = 0
-offset_left = 210.00002
-offset_top = 161.0
-offset_right = 265.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_left = 208.0
+offset_top = 162.0
+offset_right = 263.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "Fixar"
 label_settings = SubResource("LabelSettings_to205")
 
 [node name="LabelFinalizacao" type="Label" parent="FASES/Estrutura" unique_id=613115053]
 z_index = 1
 layout_mode = 0
-offset_left = 94.0
-offset_top = 161.0
-offset_right = 149.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_left = 93.0
+offset_top = 162.0
+offset_right = 150.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "Cortar"
 label_settings = SubResource("LabelSettings_to205")
 
@@ -682,15 +683,14 @@ id_correto = "3"
 
 [node name="Label2" type="Label" parent="FASES/Estrutura" unique_id=1706941964]
 layout_mode = 0
-offset_left = 291.0
-offset_top = 43.0
-offset_right = 331.0
-offset_bottom = 91.0
+offset_left = 285.0
+offset_top = 44.0
+offset_right = 332.0
+offset_bottom = 92.0
 text = "itens"
 label_settings = SubResource("LabelSettings_to205")
 
 [node name="Finalizacao" type="NinePatchRect" parent="FASES" unique_id=1188232127]
-visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 9.025001
@@ -797,22 +797,22 @@ texture = ExtResource("24_yj810")
 [node name="LabelFundacao" type="Label" parent="FASES/Finalizacao" unique_id=1629030485]
 z_index = 1
 layout_mode = 0
-offset_left = 151.0
-offset_top = 161.0
-offset_right = 206.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_left = 150.0
+offset_top = 162.0
+offset_right = 208.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "Pregar"
 label_settings = SubResource("LabelSettings_to205")
 
 [node name="LabelEstrutura" type="Label" parent="FASES/Finalizacao" unique_id=469824868]
 z_index = 1
 layout_mode = 0
-offset_left = 211.00002
-offset_top = 161.0
+offset_left = 211.0
+offset_top = 162.0
 offset_right = 266.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "selo"
 label_settings = SubResource("LabelSettings_to205")
 
@@ -820,10 +820,10 @@ label_settings = SubResource("LabelSettings_to205")
 z_index = 1
 layout_mode = 0
 offset_left = 93.0
-offset_top = 161.0
-offset_right = 148.0
-offset_bottom = 184.0
-scale = Vector2(0.6, 0.6)
+offset_top = 162.0
+offset_right = 150.0
+offset_bottom = 185.0
+scale = Vector2(0.5, 0.5)
 text = "Tabuar"
 label_settings = SubResource("LabelSettings_to205")
 
@@ -891,9 +891,9 @@ id_correto = "3"
 
 [node name="Label2" type="Label" parent="FASES/Finalizacao" unique_id=357272507]
 layout_mode = 0
-offset_left = 290.0
+offset_left = 285.0
 offset_top = 44.0
-offset_right = 330.0
+offset_right = 332.0
 offset_bottom = 92.0
 text = "itens"
 label_settings = SubResource("LabelSettings_to205")
@@ -911,11 +911,11 @@ script = ExtResource("24_m47wc")
 
 [node name="Label" type="Label" parent="verificar" unique_id=58740421]
 layout_mode = 0
-offset_left = 10.0
+offset_left = 6.0
 offset_top = 10.0
-offset_right = 72.0
+offset_right = 91.0
 offset_bottom = 43.0
-scale = Vector2(0.8, 0.8)
+scale = Vector2(0.7, 0.7)
 text = "verificar
 "
 label_settings = SubResource("LabelSettings_to205")

@@ -14,6 +14,7 @@ func _ready():
 
 # 🎯 FUNÇÃO DE ENCAIXE (Centraliza a peça no slot)
 func mover_para_posicao(destino_slot: Vector2, tamanho_slot: Vector2 = Vector2.ZERO):
+	await get_tree().process_frame
 	if tamanho_slot != Vector2.ZERO:
 		var centro = destino_slot + (tamanho_slot / 2)
 		global_position = centro - (size / 2)

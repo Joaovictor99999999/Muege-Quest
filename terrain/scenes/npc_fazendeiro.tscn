@@ -49,10 +49,11 @@ size = Vector2(101, 90)
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_w4m25"]
 texture = ExtResource("3_t03rf")
 
+[sub_resource type="SystemFont" id="SystemFont_t03rf"]
+
 [sub_resource type="LabelSettings" id="LabelSettings_w4m25"]
-font = ExtResource("4_t03rf")
+font = SubResource("SystemFont_t03rf")
 font_size = 14
-font_color = Color(0.5834499, 0.5834499, 0.5834499, 1)
 outline_size = 2
 outline_color = Color(0, 0, 0, 1)
 shadow_size = 0

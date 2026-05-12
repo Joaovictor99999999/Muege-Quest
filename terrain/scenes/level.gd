@@ -76,7 +76,7 @@ func iniciar_encerramento():
 				print("🏁 Zoom concluído. Mostrando despedida e 'Continua'...")
 				
 				# Espera 6 segundos (tempo para o jogador ler com calma)
-				await get_tree().create_timer(11.0).timeout
+				await get_tree().create_timer(7.0).timeout
 				if interface_node.has_method("preparar_para_fechar"):
 					interface_node.preparar_para_fechar()
 				# 3. Finaliza fechando o livro com a animação invertida

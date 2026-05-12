@@ -387,7 +387,6 @@ visible = false
 shape = SubResource("RectangleShape2D_4tjph")
 
 [node name="TextureRect" type="TextureRect" parent="PainelPrincipal" unique_id=1354072061]
-visible = false
 layout_mode = 0
 offset_left = 6.0
 offset_top = 5.0
@@ -397,12 +396,11 @@ texture = ExtResource("9_50w67")
 expand_mode = 1
 
 [node name="LabelScore" type="Label" parent="PainelPrincipal/TextureRect" unique_id=1961917723]
-visible = false
 z_index = 1
 layout_mode = 0
-offset_left = 7.0
+offset_left = 4.0
 offset_top = 5.0
-offset_right = 77.0
+offset_right = 84.0
 offset_bottom = 28.0
 scale = Vector2(0.6, 0.6)
 text = "score: 100"

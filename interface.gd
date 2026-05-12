@@ -109,9 +109,9 @@ func escrever_tutorial():
 	moldura.visible = true
 	
 	var tw = criar_tween()
-	tw.tween_property(texto_3, "visible_ratio", 1.0, 8.0)
-	tw.parallel().tween_property(vila_no_livro, "modulate:a", 1.0, 4.0)
-	tw.parallel().tween_property(moldura, "modulate:a", 1.0, 4.0)
+	tw.tween_property(texto_3, "visible_ratio", 1.0, 6.0)
+	tw.parallel().tween_property(vila_no_livro, "modulate:a", 1.0, 3.0)
+	tw.parallel().tween_property(moldura, "modulate:a", 1.0, 3.0)
 	tw.finished.connect(func(): escrever_chamada_final())
 
 func escrever_chamada_final():
@@ -119,7 +119,7 @@ func escrever_chamada_final():
 	texto_4.visible_ratio = 0.0
 	
 	var tw = criar_tween()
-	tw.tween_property(texto_4, "visible_ratio", 1.0, 8.0)
+	tw.tween_property(texto_4, "visible_ratio", 1.0, 5.0)
 	tw.finished.connect(func(): btn_play_final.visible = true)
 
 # --- ZOOM ---
@@ -160,14 +160,14 @@ func preparar_para_encerramento():
 	# TEXTO 5 E 6 ANIMADOS
 	texto_5.visible = true
 	texto_5.visible_ratio = 0.0
-	texto_5.text = "A historia de Merge ainda esta sendo escritas por voce.\n\nPor enquanto ficamos por aqui, mas logo voltaremos.\n\nObrigado por jogar!"
+	texto_5.text = "A historia de Merge ainda esta sendo escritas por voce.\nPor enquanto ficamos por aqui, mas logo voltaremos.\nObrigado por jogar!"
 
 	texto_6.visible = false
 	texto_6.visible_ratio = 0.0
 	texto_6.text = "Continua..."
 
 	var tw = criar_tween()
-	tw.tween_property(texto_5, "visible_ratio", 1.0, 8.0)
+	tw.tween_property(texto_5, "visible_ratio", 1.0, 6.0)
 
 	tw.tween_callback(func():
 		texto_6.visible = true

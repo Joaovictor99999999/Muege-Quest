@@ -217,7 +217,6 @@ process_mode = 3
 
 [node name="texto2" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="1" unique_id=250268713]
 process_mode = 3
-visible = true
 offset_left = 16.27118
 offset_top = -21.35173
 offset_right = 263.24457
@@ -232,7 +231,6 @@ O destino da Vila das Variáveis agora está em suas mãos.
 
 [node name="texto1" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="2" unique_id=1193453711]
 process_mode = 3
-visible = true
 offset_left = -36.02907
 offset_right = 205.13329
 scale = Vector2(0.2, 0.2)
@@ -244,15 +242,13 @@ Merge, um jovem fazendeiro famoso por sua organização e lógica impecável, ac
 
 [node name="capa" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="3" unique_id=2087736868]
 process_mode = 3
-visible = true
 
 [node name="texto3" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="4" unique_id=1743901000]
 process_mode = 3
-visible = true
 offset_left = -36.029068
-offset_top = -23.834488
+offset_top = -21.848282
 offset_right = 196.41649
-offset_bottom = 493.16553
+offset_bottom = 495.15173
 scale = Vector2(0.2, 0.2)
 text = "Página de Tutorial (Controles)
 Como Guiar Merge:
@@ -261,16 +257,14 @@ Interagir:
 Pressione a tecla \"E\" na frente de um morador para conversar.
 Diálogos:
 Pressione a tecla \"E\" para avançar as falas e explicações.
-Lembre-se:
- Cada casa guarda um desafio de lógica. Esteja pronto!"
+"
 
 [node name="texto4" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="5" unique_id=1495816468]
-visible = true
-offset_top = -22.841387
+offset_top = -22.344835
 offset_right = 244.6488
-offset_bottom = 494.1586
+offset_bottom = 494.65515
 scale = Vector2(0.2, 0.2)
-text = "Agora que os segredos desta história foram revelados e você já domina os caminhos do conhecimento, chegou a hora. O livro se abre para o mundo... vamos desbravar esta aventura!"
+text = "Agora que os segredos desta história foram revelados, chegou a hora. O livro se abre para o mundo... vamos desbravar esta aventura!"
 
 [node name="texto5" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="6" unique_id=139686332]
 offset_left = -34.866837
@@ -278,9 +272,10 @@ offset_top = -22.344835
 offset_right = 182.08226
 offset_bottom = 494.65515
 scale = Vector2(0.2, 0.2)
-text = "A historia de Murge ainda estao sendo escritas por voce.\\n\\nPor enquanto ficamos por aqui, mas logo voltaremos.\\n\\nObrigado por jogar!"
+text = "A historia de Murge ainda estao sendo escritas por voce. Por enquanto ficamos por aqui, mas logo voltaremos. Obrigado por jogar!"
 
 [node name="texto6" type="Label" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="7" unique_id=855155500]
+visible = false
 texture_filter = 1
 offset_left = 33.70461
 offset_top = 31.779314
@@ -314,10 +309,11 @@ visible = true
 [node name="Label" type="Label" parent="ysort/Character/Camera2D/interface/CanvasLayer/Começar" index="0" unique_id=745490665]
 z_index = 1
 layout_mode = 0
-offset_left = 11.666667
-offset_top = 5.0000005
-offset_right = 51.666668
-offset_bottom = 20.0
+offset_left = 13.333334
+offset_top = 6.666667
+offset_right = 53.333336
+offset_bottom = 21.666668
+scale = Vector2(0.8, 0.8)
 text = "PLAY"
 label_settings = SubResource("LabelSettings_31mqb")
 
@@ -328,10 +324,10 @@ visible = true
 [node name="Label" type="Label" parent="ysort/Character/Camera2D/interface/CanvasLayer/BtnPlayFinal" index="0" unique_id=890359220]
 layout_mode = 0
 offset_left = 6.6666665
-offset_top = 6.6666665
-offset_right = 62.66667
-offset_bottom = 21.666666
-scale = Vector2(0.75, 0.75)
+offset_top = 8.333333
+offset_right = 75.666664
+offset_bottom = 23.333332
+scale = Vector2(0.65, 0.65)
 text = "COMECAR"
 label_settings = SubResource("LabelSettings_ifitp")
 
